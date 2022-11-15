@@ -1,0 +1,10 @@
+.ideas {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.idea {
+    font-size: .75rem;
+    margin-left: 4px;
+    margin-right: 2.5rem;
+}

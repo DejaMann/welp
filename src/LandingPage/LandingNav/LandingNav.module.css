@@ -1,0 +1,24 @@
+:root {
+    --element-spacing: 1.5rem;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: var(--element-spacing);
+    width: 100%;
+}
+
+.left > * {
+    margin-right: var(--element-spacing);
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.right > * {
+    margin-left: var(--element-spacing);
+}

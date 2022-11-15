@@ -1,4 +1,4 @@
-import {API_BASE_URL, BEARER_TOKEN} from '../../config';
+import {API_BASE_URL, BEARER_TOKEN} from './env'
 
 const queryString = require('query-string');
 

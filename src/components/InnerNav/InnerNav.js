@@ -1,12 +1,11 @@
 import { Link, NavLink } from "react-router-dom";
 import * as userService from "../../utils/users-service";
 import React from 'react';
-import logo from '../assets/logo.png';
-import styles from './NavBar.module.css';
+import styles from './InnerNav.module.css';
 import { SearchBar } from '../SearchBar/SearchBar';
 
 
-const NavBar = (props, { user, setUser }) => {
+const InnerNav = (props, { user, setUser }) => {
   const handleLogOut = () => {
     // Delegate to the users-service
     userService.logOut();

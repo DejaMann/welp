@@ -2,7 +2,7 @@ import { Link, NavLink } from "react-router-dom";
 import * as userService from "../../utils/users-service";
 import React from 'react';
 import styles from './InnerNav.module.css';
-import { SearchBar } from '../SearchBar/SearchBar';
+import SearchBar from '../../Search/SearchBar/SearchBar';
 
 
 const InnerNav = (props, { user, setUser }) => {

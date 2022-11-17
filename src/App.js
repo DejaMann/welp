@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Routes, Route, Router } from "react-router-dom";
 import { getUser } from "./utils/users-service";
-import { LandingPage } from './LandingPage/LandingPage';
+import { LandingPage } from './pages/LandingPage/LandingPage';
 import AuthPage from "./pages/AuthPage";
 // import NewOrderPage from "./pages/NewOrderPage";
 // import OrderHistoryPage from "./pages/OrderHistoryPage";

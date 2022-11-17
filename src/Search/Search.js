@@ -1,8 +1,8 @@
 import React from 'react';
-import { AddlResults } from './AddlResults/AddlResults';
-import { SearchResults } from './SearchResults/SearchResults';
+import { AddlResults } from '../components/AddlResults/AddlResults';
+import { SearchResults } from '../components/SearchResults/SearchResults';
 // import useReactRouter from 'use-react-router';
-import {useBusinessSearch} from '../components/hooks/yelp-api/BusinessSearch';
+import {useBusinessSearch} from '../components/yelp-api/useBusinessSearch';
 
 export function Search() {
     const {location, history} = useReactRouter();
@@ -25,7 +25,7 @@ export function Search() {
     return (
         <div>
             <NavBar term={term} location={locationParam} search={search}/>
-            <SearchResultsSummary term={searchParams.term}
+            <AddlResults term={searchParams.term}
                                   location={searchParams.location}
                                   amountResults={amountResults}
                                   shownResults={businesses ? businesses.length : 0}

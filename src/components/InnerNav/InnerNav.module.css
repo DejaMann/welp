@@ -1,4 +1,4 @@
-.nav-bar {
+.inner-nav {
     display: flex;
     background: #d32323;
     padding: 1rem 0;
@@ -10,6 +10,6 @@
     margin-right: 1rem;
 }
 
-:global(.button).nav-button {
+:global(.button).inner-button {
     margin-left: 1rem;
 }

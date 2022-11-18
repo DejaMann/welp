@@ -1,7 +1,7 @@
 import React from 'react';
 import { InnerNav } from '../../components/InnerNav/InnerNav';
 import styles from './LandingPage.module.css';
-import { SearchBar } from './SearchBar/SearchBar';
+import { SearchBar } from '../../components/SearchBar/SearchBar';
 import { SearchIdeas } from '../../components/SearchIdeas/SearchIdeas';
 import { Routes, Route, Router } from "react-router-dom";
 

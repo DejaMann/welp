@@ -1,8 +1,9 @@
 import React from 'react';
 import { AddlResults } from '../components/AddlResults/AddlResults';
 import { SearchResults } from '../components/SearchResults/SearchResults';
-// import useReactRouter from 'use-react-router';
+import useReactRouter from 'use-react-router';
 import {useBusinessSearch} from '../components/yelp-api/useBusinessSearch';
+import InnerNav from '../components/InnerNav/InnerNav'
 
 export function Search() {
     const {location, history} = useReactRouter();
@@ -24,7 +25,7 @@ export function Search() {
 
     return (
         <div>
-            <NavBar term={term} location={locationParam} search={search}/>
+            <InnerNav term={term} location={locationParam} search={search}/>
             <AddlResults term={searchParams.term}
                                   location={searchParams.location}
                                   amountResults={amountResults}

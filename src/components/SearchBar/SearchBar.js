@@ -1,4 +1,4 @@
-// SEARCH BAR ON THE LANDING PAGE - (DO NOT HAVE TO BE LOGGED IN TO SEARCH?)
+// SEARCH BAR ON THE LANDING PAGE 
 import React, {useState} from 'react';
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';

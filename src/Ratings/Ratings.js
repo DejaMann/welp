@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Ratings.module.css';
 import Rating from 'react-rating';
 
-export function BusinessRating(props) {
+export function Ratings(props) {
     return (
         <div className={styles.rating}>
             <Rating

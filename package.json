@@ -16,10 +16,13 @@
     "morgan": "^1.10.0",
     "query-string": "^7.1.1",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.6.0",
     "react-dom": "^18.2.0",
+    "react-rating": "^2.0.5",
     "react-router-dom": "^6.4.2",
     "react-scripts": "5.0.1",
     "serve-favicon": "^2.5.0",
+    "use-react-router": "^1.0.7",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -46,5 +49,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://127.0.0.1:3001"
+  "proxy": "http://localhost:3001"
 }

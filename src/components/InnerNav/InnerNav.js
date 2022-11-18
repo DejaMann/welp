@@ -16,7 +16,7 @@ const InnerNav = (props, { user, setUser }) => {
   return (
     <nav>
       <div className={styles['inner-nav']}>
-            <Link to='/'><img src={logo} className={styles.logo} alt='logo' /></Link>
+            {/* <Link to='/'><img src={logo} className={styles.logo} alt='logo' /></Link> */}
             <SearchBar small term={props.term} location={props.location} search={props.search}/>
             <button className={`button ${styles['inner-button']}`}>Sign In</button>
             <button className={`button ${styles['inner-button']}`}>Register</button>

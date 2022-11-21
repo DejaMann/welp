@@ -2,6 +2,8 @@ import React from 'react';
 import styles from './SearchResult.module.css';
 import { Ratings } from '../../Ratings/Ratings';
 
+// b = variable for props.business 
+
 export function SearchResult(props) {
     const b = props.business;
     if (!b) {

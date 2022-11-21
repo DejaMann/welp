@@ -37,7 +37,3 @@ export function SearchBar(props) {
 
     )
 }
-
-const styles = {
-
-}

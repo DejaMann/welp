@@ -10,7 +10,7 @@ export function LandingNav() {
             </div>
             <div className={styles.right}>
                 <span>Login</span>
-                <button className='button'>Sign up</button>
+                <button className='button'>Sign Up</button>
             </div>
         </div>
     );

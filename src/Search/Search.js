@@ -5,6 +5,7 @@ import useReactRouter from 'use-react-router';
 import {useBusinessSearch} from '../components/yelp-api/useBusinessSearch';
 import InnerNav from '../components/InnerNav/InnerNav'
 
+
 export function Search() {
     const {location, history} = useReactRouter();
     const params = new URLSearchParams(location.search);

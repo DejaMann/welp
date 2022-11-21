@@ -6,6 +6,8 @@ export function useBusinessSearch(term, location) {
     const [amountResults, setAmountResults] = useState();
     const [searchParams, setSearchParams] = useState({term, location});
 
+// hook to fetch data from API
+
     useEffect(() => {
         setBusinesses([]);
         const fetchData = async () => {
